@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import {
     Mail,
     Phone,
-    MapPin,
     Facebook,
     Twitter,
     Instagram,
@@ -109,15 +108,6 @@ const Footer = () => {
                 <div>
                     <h3 className="text-lg font-bold mb-4">Contato</h3>
                     <ul className="space-y-3 text-sm">
-                        <li className="flex items-start">
-                            <MapPin
-                                size={18}
-                                className="mr-2 mt-1 text-primary"
-                            />
-                            <span className="text-gray-400">
-                                São Paulo, SP, Brasil
-                            </span>
-                        </li>
                         <li className="flex items-center">
                             <Phone size={18} className="mr-2 text-primary" />
                             <span className="text-gray-400">

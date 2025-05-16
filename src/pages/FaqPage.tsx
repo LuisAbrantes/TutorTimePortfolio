@@ -76,8 +76,9 @@ const faqCategories = [
                 answer: 'Sim, oferecemos suporte técnico contínuo para todas as instituições clientes. Nossa equipe está disponível para resolver problemas, implementar melhorias e fornecer orientações sobre o uso da plataforma, garantindo que você aproveite ao máximo todos os recursos disponíveis.'
             },
             {
-                question: 'Qual é o horário de atendimento do suporte técnico?',
-                answer: 'Nossa equipe de suporte técnico está disponível em horário comercial (8h às 18h, de segunda a sexta-feira). Para clientes dos planos Profissional e Empresarial, oferecemos suporte estendido e canais prioritários de atendimento.'
+                question:
+                    'Quais são os horários de disponibilidade do suporte técnico?',
+                answer: 'O suporte técnico varia de acordo com o plano: Básico (9h às 18h, segunda a sexta), Profissional (8h às 20h, segunda a sábado), e Empresarial (atendimento 24/7). Todos os planos oferecem suporte via plataforma e e-mail.'
             },
             {
                 question:

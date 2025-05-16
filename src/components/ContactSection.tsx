@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, Send } from 'lucide-react';
 import { useState } from 'react';
 
 const ContactSection = () => {
@@ -188,25 +188,6 @@ const ContactSection = () => {
                             <ul className="space-y-6">
                                 <li className="flex">
                                     <div className="flex-shrink-0 p-3 bg-primary/20 rounded-lg mr-4">
-                                        <MapPin
-                                            size={24}
-                                            className="text-white"
-                                        />
-                                    </div>
-                                    <div>
-                                        <h4 className="font-medium text-white mb-1">
-                                            Endereço
-                                        </h4>
-                                        <p className="text-gray-400">
-                                            Av. Paulista, 1000, Bela Vista
-                                            <br />
-                                            São Paulo, SP 01310-100
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li className="flex">
-                                    <div className="flex-shrink-0 p-3 bg-primary/20 rounded-lg mr-4">
                                         <Phone
                                             size={24}
                                             className="text-white"
@@ -247,32 +228,32 @@ const ContactSection = () => {
 
                         <div className="bg-darkAlt p-8 rounded-xl border border-gray-800">
                             <h3 className="text-xl font-bold text-white mb-6">
-                                Horário de Atendimento
+                                Horários de Suporte
                             </h3>
 
                             <ul className="space-y-3">
                                 <li className="flex justify-between">
                                     <span className="text-gray-400">
-                                        Segunda - Sexta:
+                                        Suporte Básico:
                                     </span>
                                     <span className="text-white font-medium">
-                                        9:00 - 18:00
+                                        9:00 - 18:00 (seg - sex)
                                     </span>
                                 </li>
                                 <li className="flex justify-between">
                                     <span className="text-gray-400">
-                                        Sábado:
+                                        Suporte Premium:
                                     </span>
                                     <span className="text-white font-medium">
-                                        10:00 - 14:00
+                                        8:00 - 20:00 (seg - sab)
                                     </span>
                                 </li>
                                 <li className="flex justify-between">
                                     <span className="text-gray-400">
-                                        Domingo e Feriados:
+                                        Suporte Empresarial:
                                     </span>
                                     <span className="text-white font-medium">
-                                        Fechado
+                                        24/7
                                     </span>
                                 </li>
                             </ul>
@@ -283,8 +264,8 @@ const ContactSection = () => {
                                 </h4>
                                 <p className="text-gray-400">
                                     Clientes ativos têm acesso ao nosso suporte
-                                    técnico 24/7 através da plataforma ou pelo
-                                    email dedicado.
+                                    técnico através da plataforma ou pelo email
+                                    dedicado.
                                 </p>
                             </div>
                         </div>
