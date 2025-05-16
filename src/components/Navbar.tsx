@@ -1,12 +1,17 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
+    };
+
+    const isActive = (path: string) => {
+        return location.pathname === path;
     };
 
     return (
@@ -30,37 +35,57 @@ const Navbar = () => {
                 <div className="hidden md:flex space-x-8">
                     <Link
                         to="/"
-                        className="text-white hover:text-indigo-400 transition duration-300 px-3 py-1"
+                        className={`${
+                            isActive('/') ? 'text-indigo-400' : 'text-white'
+                        } hover:text-indigo-400 transition duration-300 px-3 py-1 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-indigo-500 after:invisible hover:after:visible after:transition-all after:duration-300`}
                     >
                         Home
                     </Link>
                     <Link
                         to="/about"
-                        className="text-white hover:text-indigo-400 transition duration-300 px-3 py-1 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-indigo-500 after:invisible hover:after:visible after:transition-all after:duration-300"
+                        className={`${
+                            isActive('/about')
+                                ? 'text-indigo-400'
+                                : 'text-white'
+                        } hover:text-indigo-400 transition duration-300 px-3 py-1 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-indigo-500 after:invisible hover:after:visible after:transition-all after:duration-300`}
                     >
                         Sobre
                     </Link>
                     <Link
                         to="/product"
-                        className="text-white hover:text-indigo-400 transition duration-300 px-3 py-1"
+                        className={`${
+                            isActive('/product')
+                                ? 'text-indigo-400'
+                                : 'text-white'
+                        } hover:text-indigo-400 transition duration-300 px-3 py-1 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-indigo-500 after:invisible hover:after:visible after:transition-all after:duration-300`}
                     >
                         Produto
                     </Link>
                     <Link
                         to="/testimonials"
-                        className="text-white hover:text-indigo-400 transition duration-300 px-3 py-1"
+                        className={`${
+                            isActive('/testimonials')
+                                ? 'text-indigo-400'
+                                : 'text-white'
+                        } hover:text-indigo-400 transition duration-300 px-3 py-1 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-indigo-500 after:invisible hover:after:visible after:transition-all after:duration-300`}
                     >
                         Depoimentos
                     </Link>
                     <Link
                         to="/faq"
-                        className="text-white hover:text-primary transition duration-300"
+                        className={`${
+                            isActive('/faq') ? 'text-indigo-400' : 'text-white'
+                        } hover:text-indigo-400 transition duration-300 px-3 py-1 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-indigo-500 after:invisible hover:after:visible after:transition-all after:duration-300`}
                     >
                         FAQ
                     </Link>
                     <Link
                         to="/contact"
-                        className="text-white hover:text-primary transition duration-300"
+                        className={`${
+                            isActive('/contact')
+                                ? 'text-indigo-400'
+                                : 'text-white'
+                        } hover:text-indigo-400 transition duration-300 px-3 py-1 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-indigo-500 after:invisible hover:after:visible after:transition-all after:duration-300`}
                     >
                         Contato
                     </Link>
@@ -80,42 +105,64 @@ const Navbar = () => {
                     <div className="flex flex-col space-y-4">
                         <Link
                             to="/"
-                            className="text-white hover:text-primary transition duration-300"
+                            className={`${
+                                isActive('/') ? 'text-indigo-400' : 'text-white'
+                            } hover:text-indigo-400 transition duration-300`}
                             onClick={() => setIsOpen(false)}
                         >
                             Home
                         </Link>
                         <Link
                             to="/about"
-                            className="text-white hover:text-primary transition duration-300"
+                            className={`${
+                                isActive('/about')
+                                    ? 'text-indigo-400'
+                                    : 'text-white'
+                            } hover:text-indigo-400 transition duration-300`}
                             onClick={() => setIsOpen(false)}
                         >
                             Sobre
                         </Link>
                         <Link
                             to="/product"
-                            className="text-white hover:text-primary transition duration-300"
+                            className={`${
+                                isActive('/product')
+                                    ? 'text-indigo-400'
+                                    : 'text-white'
+                            } hover:text-indigo-400 transition duration-300`}
                             onClick={() => setIsOpen(false)}
                         >
                             Produto
                         </Link>
                         <Link
                             to="/testimonials"
-                            className="text-white hover:text-primary transition duration-300"
+                            className={`${
+                                isActive('/testimonials')
+                                    ? 'text-indigo-400'
+                                    : 'text-white'
+                            } hover:text-indigo-400 transition duration-300`}
                             onClick={() => setIsOpen(false)}
                         >
                             Depoimentos
                         </Link>
                         <Link
                             to="/faq"
-                            className="text-white hover:text-primary transition duration-300"
+                            className={`${
+                                isActive('/faq')
+                                    ? 'text-indigo-400'
+                                    : 'text-white'
+                            } hover:text-indigo-400 transition duration-300`}
                             onClick={() => setIsOpen(false)}
                         >
                             FAQ
                         </Link>
                         <Link
                             to="/contact"
-                            className="text-white hover:text-primary transition duration-300"
+                            className={`${
+                                isActive('/contact')
+                                    ? 'text-indigo-400'
+                                    : 'text-white'
+                            } hover:text-indigo-400 transition duration-300`}
                             onClick={() => setIsOpen(false)}
                         >
                             Contato
