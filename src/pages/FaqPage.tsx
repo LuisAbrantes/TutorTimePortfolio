@@ -83,7 +83,7 @@ const faqCategories = [
             {
                 question:
                     'Como posso reportar problemas ou sugerir melhorias para a plataforma?',
-                answer: 'Valorizamos o feedback dos nossos clientes! Você pode reportar problemas ou sugerir melhorias diretamente pelo painel do administrador, pelo email suporte@tutortime.com.br ou através do seu gerente de conta designado.'
+                answer: 'Valorizamos o feedback dos nossos clientes! Você pode reportar problemas ou sugerir melhorias diretamente pelo painel do administrador, pelo email tutortimeadm@gmail.com ou através do seu gerente de conta designado.'
             }
         ]
     },

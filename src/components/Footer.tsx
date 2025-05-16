@@ -110,15 +110,23 @@ const Footer = () => {
                     <ul className="space-y-3 text-sm">
                         <li className="flex items-center">
                             <Phone size={18} className="mr-2 text-primary" />
-                            <span className="text-gray-400">
-                                (11) 9999-9999
-                            </span>
+                            <a
+                                href="https://wa.me/5512981451610"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-400 hover:text-primary transition-colors"
+                            >
+                                +55 12 98145-1610
+                            </a>
                         </li>
                         <li className="flex items-center">
                             <Mail size={18} className="mr-2 text-primary" />
-                            <span className="text-gray-400">
-                                contato@tutortime.com.br
-                            </span>
+                            <a
+                                href="mailto:tutortimeadm@gmail.com"
+                                className="text-gray-400 hover:text-primary transition-colors"
+                            >
+                                tutortimeadm@gmail.com
+                            </a>
                         </li>
                     </ul>
                 </div>

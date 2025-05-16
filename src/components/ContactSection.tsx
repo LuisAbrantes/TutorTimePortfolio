@@ -198,9 +198,14 @@ const ContactSection = () => {
                                             Telefone
                                         </h4>
                                         <p className="text-gray-400">
-                                            (11) 9999-9999
-                                            <br />
-                                            (11) 8888-8888
+                                            <a
+                                                href="https://wa.me/5512981451610"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="hover:text-primary transition-colors"
+                                            >
+                                                +55 12 98145-1610 (WhatsApp)
+                                            </a>
                                         </p>
                                     </div>
                                 </li>
@@ -217,9 +222,12 @@ const ContactSection = () => {
                                             Email
                                         </h4>
                                         <p className="text-gray-400">
-                                            contato@tutortime.com.br
-                                            <br />
-                                            suporte@tutortime.com.br
+                                            <a
+                                                href="mailto:tutortimeadm@gmail.com"
+                                                className="hover:text-primary transition-colors"
+                                            >
+                                                tutortimeadm@gmail.com
+                                            </a>
                                         </p>
                                     </div>
                                 </li>
