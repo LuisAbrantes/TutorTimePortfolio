@@ -21,7 +21,7 @@ const Navbar = () => {
                     <img
                         src="/TutorTimeMainLogo.png"
                         alt="TutorTime Logo"
-                        className="h-10 w-auto mr-3"
+                        className="h-10 w-10 mr-3 rounded-full object-cover rounded-logo"
                         onError={e => {
                             e.currentTarget.src = '/vite.svg'; // Fallback to vite logo if TutorTimeMainLogo.png is not found
                         }}

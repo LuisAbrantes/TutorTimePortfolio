@@ -1,11 +1,4 @@
-import {
-    CalendarDays,
-    Users,
-    BarChart,
-    Bell,
-    Clock,
-    Settings
-} from 'lucide-react';
+import { CalendarDays, Users, BarChart, Settings } from 'lucide-react';
 import type { ReactNode } from 'react';
 
 interface FeatureCardProps {
@@ -32,37 +25,25 @@ const Features = () => {
             icon: <CalendarDays size={24} className="text-white" />,
             title: 'Agendamento Intuitivo',
             description:
-                'Interface simples para gerenciar horários de aulas de reforço e monitorias.'
+                'Interface com design excepcional para gerenciar horários de aulas de reforço e monitorias com facilidade.'
         },
         {
             icon: <Users size={24} className="text-white" />,
             title: 'Acesso Facilitado',
             description:
-                'Plataforma centralizada para alunos visualizarem todas as monitorias disponíveis.'
+                'Plataforma centralizada para alunos visualizarem e se inscreverem em todas as monitorias disponíveis.'
         },
         {
             icon: <BarChart size={24} className="text-white" />,
-            title: 'Análise de Dados',
+            title: 'Análise de Inscrições',
             description:
-                'Visualize estatísticas de frequência e desempenho dos alunos em tempo real.'
-        },
-        {
-            icon: <Bell size={24} className="text-white" />,
-            title: 'Lembretes Automáticos',
-            description:
-                'Notificações para alunos sobre horários de aulas e alterações de cronograma.'
-        },
-        {
-            icon: <Clock size={24} className="text-white" />,
-            title: 'Controle de Presença',
-            description:
-                'Sistema integrado para registro e monitoramento de frequência dos alunos.'
+                'Visualize o número de inscritos para cada monitoria, permitindo melhor planejamento das aulas.'
         },
         {
             icon: <Settings size={24} className="text-white" />,
             title: 'Personalização',
             description:
-                'Adaptável às necessidades específicas de cada instituição de ensino.'
+                'Adaptável às necessidades específicas da sua instituição de ensino.'
         }
     ];
 
@@ -75,9 +56,10 @@ const Features = () => {
                         <span className="text-indigo-400">Principais</span>
                     </h2>
                     <p className="text-gray-400 max-w-2xl mx-auto">
-                        O TutorTime oferece ferramentas poderosas para organizar
-                        monitorias e reforços, facilitando o acesso dos alunos e
-                        aumentando a participação.
+                        O TutorTime oferece um site com design excepcional para
+                        organizar monitorias e reforços, facilitando o cadastro
+                        pelos professores e a busca pelos alunos, aumentando o
+                        engajamento nas atividades oferecidas pela instituição.
                     </p>
                 </div>
 

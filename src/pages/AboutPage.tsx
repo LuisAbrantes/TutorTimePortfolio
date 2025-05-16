@@ -7,28 +7,22 @@ import { createPlaceholder } from '../utils/placeholdersUtils';
 const AboutPage = () => {
     const teamMembers = [
         {
-            name: 'João Silva',
+            name: 'Luis Abrantes',
             role: 'CEO & Fundador',
-            bio: 'Ex-educador com mais de 15 anos de experiência, João identificou os problemas de gestão de monitorias e fundou a TutorTime para revolucionar o setor.',
-            photo: 'https://i.pravatar.cc/300?img=12'
+            bio: 'Entusiasta tech. Experiencia em hackathons e startups, inclusive o PennApps, maior hackathon universitário do mundo, localizado na Universidade da Pensilvânia.',
+            photo: '/LuisAbrantes.png'
         },
         {
-            name: 'Marina Costa',
+            name: 'Isaque Estolano',
             role: 'CTO',
-            bio: 'Desenvolvedora fullstack com experiência em startups de educação, Marina lidera a equipe de tecnologia e desenvolvimento de produto da TutorTime.',
+            bio: 'Descrição do Isaque.',
             photo: 'https://i.pravatar.cc/300?img=25'
         },
         {
-            name: 'Rafael Mendes',
+            name: 'Cauã Almeida',
             role: 'Diretor Pedagógico',
-            bio: 'Com doutorado em Educação, Rafael garante que a plataforma TutorTime atenda às necessidades reais de alunos e educadores.',
+            bio: 'Descrição do Cauã.',
             photo: 'https://i.pravatar.cc/300?img=2'
-        },
-        {
-            name: 'Carolina Duarte',
-            role: 'Head de Customer Success',
-            bio: 'Especialista em experiência do cliente, Carolina e sua equipe garantem que todas as instituições parceiras aproveitem ao máximo a plataforma.',
-            photo: 'https://i.pravatar.cc/300?img=9'
         }
     ];
 
@@ -150,7 +144,7 @@ const AboutPage = () => {
                         Nossa <span className="text-indigo-400">Equipe</span>
                     </h2>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {teamMembers.map((member, index) => (
                             <div
                                 key={index}
@@ -159,7 +153,16 @@ const AboutPage = () => {
                                 <img
                                     src={member.photo}
                                     alt={member.name}
-                                    className="w-full h-64 object-cover"
+                                    className={`w-full h-64 object-cover ${
+                                        member.name === 'Luis Abrantes'
+                                            ? 'object-position-top'
+                                            : ''
+                                    }`}
+                                    style={
+                                        member.name === 'Luis Abrantes'
+                                            ? { objectPosition: '50% 15%' }
+                                            : {}
+                                    }
                                     onError={e => {
                                         e.currentTarget.onerror = null;
                                         e.currentTarget.src = createPlaceholder(
@@ -171,12 +174,23 @@ const AboutPage = () => {
                                 />
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-white mb-1">
-                                        {member.name}
+                                        {member.name === 'Luis Abrantes' ? (
+                                            <a
+                                                href="https://luisabrantes.github.io/luis.hsa/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="hover:text-primary transition-colors"
+                                            >
+                                                {member.name}
+                                            </a>
+                                        ) : (
+                                            member.name
+                                        )}
                                     </h3>
-                                    <p className="text-primary font-medium mb-3">
+                                    <p className="text-white font-medium mb-3">
                                         {member.role}
                                     </p>
-                                    <p className="text-gray-400 text-sm">
+                                    <p className="text-white text-sm">
                                         {member.bio}
                                     </p>
                                 </div>

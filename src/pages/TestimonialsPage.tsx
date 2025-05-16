@@ -339,7 +339,7 @@ const TestimonialsPage = () => {
                                     <img
                                         src="/TutorTimeMainLogo.png"
                                         alt="Instituto Federal"
-                                        className="w-24 h-24 object-contain"
+                                        className="w-24 h-24 object-cover rounded-full overflow-hidden rounded-logo"
                                         onError={e => {
                                             e.currentTarget.onerror = null;
                                             e.currentTarget.src =
