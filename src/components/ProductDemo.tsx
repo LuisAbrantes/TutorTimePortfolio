@@ -222,7 +222,7 @@ const ProductDemo = () => {
                             >
                                 <CheckCircle
                                     size={20}
-                                    className="text-primary flex-shrink-0 mt-0.5"
+                                    className="text-white flex-shrink-0 mt-0.5"
                                 />
                                 <span className="text-gray-300">{feature}</span>
                             </div>
@@ -286,7 +286,7 @@ const ProductDemo = () => {
                                             >
                                                 <CheckCircle
                                                     size={18}
-                                                    className="text-primary flex-shrink-0 mt-0.5"
+                                                    className="text-white flex-shrink-0 mt-0.5"
                                                 />
                                                 <span className="text-gray-300 text-sm">
                                                     {feature}
@@ -309,7 +309,7 @@ const ProductDemo = () => {
                                         {plan.cta}
                                         <ArrowRight
                                             size={16}
-                                            className="ml-2"
+                                            className="ml-2 text-white"
                                         />
                                     </Link>
                                 </div>

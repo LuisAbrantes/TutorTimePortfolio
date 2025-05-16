@@ -29,37 +29,37 @@ const FeatureCard = ({ icon, title, description }: FeatureCardProps) => {
 const Features = () => {
     const features = [
         {
-            icon: <CalendarDays size={24} className="text-primary" />,
+            icon: <CalendarDays size={24} className="text-white" />,
             title: 'Agendamento Intuitivo',
             description:
                 'Interface simples para gerenciar horários de aulas de reforço e monitorias.'
         },
         {
-            icon: <Users size={24} className="text-primary" />,
+            icon: <Users size={24} className="text-white" />,
             title: 'Acesso Facilitado',
             description:
                 'Plataforma centralizada para alunos visualizarem todas as monitorias disponíveis.'
         },
         {
-            icon: <BarChart size={24} className="text-primary" />,
+            icon: <BarChart size={24} className="text-white" />,
             title: 'Análise de Dados',
             description:
                 'Visualize estatísticas de frequência e desempenho dos alunos em tempo real.'
         },
         {
-            icon: <Bell size={24} className="text-primary" />,
+            icon: <Bell size={24} className="text-white" />,
             title: 'Lembretes Automáticos',
             description:
                 'Notificações para alunos sobre horários de aulas e alterações de cronograma.'
         },
         {
-            icon: <Clock size={24} className="text-primary" />,
+            icon: <Clock size={24} className="text-white" />,
             title: 'Controle de Presença',
             description:
                 'Sistema integrado para registro e monitoramento de frequência dos alunos.'
         },
         {
-            icon: <Settings size={24} className="text-primary" />,
+            icon: <Settings size={24} className="text-white" />,
             title: 'Personalização',
             description:
                 'Adaptável às necessidades específicas de cada instituição de ensino.'

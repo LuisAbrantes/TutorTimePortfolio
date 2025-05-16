@@ -53,13 +53,10 @@ const FaqItem = ({ question, answer, isOpen, toggleFaq }: FaqItemProps) => {
             >
                 <h3 className="text-lg font-medium text-white">{question}</h3>
                 {isOpen ? (
-                    <ChevronUp
-                        className="text-primary flex-shrink-0"
-                        size={20}
-                    />
+                    <ChevronUp className="text-white flex-shrink-0" size={20} />
                 ) : (
                     <ChevronDown
-                        className="text-gray-400 flex-shrink-0"
+                        className="text-white flex-shrink-0"
                         size={20}
                     />
                 )}
@@ -86,8 +83,7 @@ const FaqSection = () => {
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                        Perguntas{' '}
-                        <span className="text-indigo-400">Frequentes</span>
+                        Perguntas <span className="text-white">Frequentes</span>
                     </h2>
                     <p className="text-gray-400 max-w-2xl mx-auto">
                         Encontre respostas para as dúvidas mais comuns sobre o
@@ -113,7 +109,7 @@ const FaqSection = () => {
                     </p>
                     <a
                         href="/contact"
-                        className="text-primary hover:text-secondary underline transition duration-300"
+                        className="text-white hover:text-gray-300 underline transition duration-300"
                     >
                         Entre em contato com nossa equipe
                     </a>

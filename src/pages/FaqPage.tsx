@@ -145,7 +145,7 @@ const FAQPage = () => {
                     <div className="max-w-3xl mx-auto text-center">
                         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
                             Perguntas{' '}
-                            <span className="text-primary">Frequentes</span>
+                            <span className="text-white">Frequentes</span>
                         </h1>
                         <p className="text-xl text-gray-300 mb-8">
                             Encontre respostas para as principais dúvidas sobre
@@ -162,7 +162,7 @@ const FAQPage = () => {
                                 onChange={handleSearch}
                                 className="w-full px-6 py-4 bg-darkAlt border border-gray-700 rounded-full text-white focus:outline-none focus:border-primary pr-12"
                             />
-                            <div className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400">
+                            <div className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white">
                                 <Search size={20} />
                             </div>
                         </div>
@@ -256,7 +256,7 @@ const FAQPage = () => {
                                         Fale conosco
                                         <ArrowRight
                                             size={16}
-                                            className="ml-1"
+                                            className="ml-1 text-white"
                                         />
                                     </Link>
                                 </div>
@@ -276,7 +276,7 @@ const FAQPage = () => {
                                         Agendar demo
                                         <ArrowRight
                                             size={16}
-                                            className="ml-1"
+                                            className="ml-1 text-white"
                                         />
                                     </Link>
                                 </div>

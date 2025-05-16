@@ -27,7 +27,7 @@ const Footer = () => {
                             href="https://facebook.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-400 hover:text-primary transition duration-300"
+                            className="text-white hover:text-primary transition duration-300"
                         >
                             <Facebook size={20} />
                         </a>
@@ -35,7 +35,7 @@ const Footer = () => {
                             href="https://twitter.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-400 hover:text-primary transition duration-300"
+                            className="text-white hover:text-primary transition duration-300"
                         >
                             <Twitter size={20} />
                         </a>
@@ -43,7 +43,7 @@ const Footer = () => {
                             href="https://instagram.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-400 hover:text-primary transition duration-300"
+                            className="text-white hover:text-primary transition duration-300"
                         >
                             <Instagram size={20} />
                         </a>
@@ -51,7 +51,7 @@ const Footer = () => {
                             href="https://linkedin.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-400 hover:text-primary transition duration-300"
+                            className="text-white hover:text-primary transition duration-300"
                         >
                             <Linkedin size={20} />
                         </a>

@@ -151,7 +151,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => {
     return (
         <div className="bg-darkAlt rounded-xl p-8 h-full border border-gray-800 transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10">
             <div className="flex justify-between items-start mb-6">
-                <Quote size={32} className="text-primary/40" />
+                <Quote size={32} className="text-white/40" />
                 <div className="flex">
                     {[...Array(5)].map((_, i) => (
                         <Star
@@ -212,7 +212,7 @@ const TestimonialsPage = () => {
                     <div className="max-w-3xl mx-auto text-center">
                         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
                             Histórias de{' '}
-                            <span className="text-primary">Sucesso</span>
+                            <span className="text-white">Sucesso</span>
                         </h1>
                         <p className="text-xl text-gray-300 mb-8">
                             Veja como instituições de ensino têm transformado a
@@ -227,8 +227,7 @@ const TestimonialsPage = () => {
             <section className="py-20 bg-darkAlt">
                 <div className="container mx-auto px-6">
                     <h2 className="text-3xl font-bold text-white mb-12 text-center">
-                        Depoimentos em{' '}
-                        <span className="text-primary">Vídeo</span>
+                        Depoimentos em <span className="text-white">Vídeo</span>
                     </h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -262,8 +261,7 @@ const TestimonialsPage = () => {
                                         >
                                             <Play
                                                 size={30}
-                                                fill="white"
-                                                className="ml-1"
+                                                className="ml-1 text-white"
                                             />
                                         </button>
                                     </div>
@@ -287,7 +285,7 @@ const TestimonialsPage = () => {
                 <div className="container mx-auto px-6">
                     <h2 className="text-3xl font-bold text-white mb-12 text-center">
                         O que nossos{' '}
-                        <span className="text-primary">clientes</span> dizem
+                        <span className="text-white">clientes</span> dizem
                     </h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -302,7 +300,7 @@ const TestimonialsPage = () => {
                     {/* Stats */}
                     <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                         <div className="p-8 bg-darkAlt rounded-xl border border-gray-800 text-center">
-                            <h3 className="text-4xl font-bold text-primary mb-2">
+                            <h3 className="text-4xl font-bold text-white mb-2">
                                 +500
                             </h3>
                             <p className="text-gray-300">
@@ -311,14 +309,14 @@ const TestimonialsPage = () => {
                         </div>
 
                         <div className="p-8 bg-darkAlt rounded-xl border border-gray-800 text-center">
-                            <h3 className="text-4xl font-bold text-primary mb-2">
+                            <h3 className="text-4xl font-bold text-white mb-2">
                                 97%
                             </h3>
                             <p className="text-gray-300">Taxa de renovação</p>
                         </div>
 
                         <div className="p-8 bg-darkAlt rounded-xl border border-gray-800 text-center">
-                            <h3 className="text-4xl font-bold text-primary mb-2">
+                            <h3 className="text-4xl font-bold text-white mb-2">
                                 4.9/5
                             </h3>
                             <p className="text-gray-300">Avaliação média</p>
@@ -331,7 +329,7 @@ const TestimonialsPage = () => {
             <section className="py-20 bg-darkAlt">
                 <div className="container mx-auto px-6">
                     <h2 className="text-3xl font-bold text-white mb-12 text-center">
-                        Casos de <span className="text-primary">Sucesso</span>
+                        Casos de <span className="text-white">Sucesso</span>
                     </h2>
 
                     <div className="max-w-4xl mx-auto bg-dark rounded-xl overflow-hidden border border-gray-800">
@@ -358,7 +356,7 @@ const TestimonialsPage = () => {
                                     <h3 className="text-2xl font-bold text-white mb-3">
                                         Instituto Federal de São Paulo
                                     </h3>
-                                    <p className="text-primary font-medium mb-4">
+                                    <p className="text-white font-medium mb-4">
                                         Aumento de 65% na frequência de
                                         monitorias em 6 meses
                                     </p>
@@ -378,7 +376,7 @@ const TestimonialsPage = () => {
                                     </h4>
                                     <ul className="text-gray-300 mb-6 space-y-2">
                                         <li className="flex items-start">
-                                            <span className="text-primary mr-2">
+                                            <span className="text-white mr-2">
                                                 •
                                             </span>
                                             <span>
@@ -387,7 +385,7 @@ const TestimonialsPage = () => {
                                             </span>
                                         </li>
                                         <li className="flex items-start">
-                                            <span className="text-primary mr-2">
+                                            <span className="text-white mr-2">
                                                 •
                                             </span>
                                             <span>
@@ -396,7 +394,7 @@ const TestimonialsPage = () => {
                                             </span>
                                         </li>
                                         <li className="flex items-start">
-                                            <span className="text-primary mr-2">
+                                            <span className="text-white mr-2">
                                                 •
                                             </span>
                                             <span>
@@ -411,7 +409,7 @@ const TestimonialsPage = () => {
                                     </h4>
                                     <ul className="text-gray-300 mb-6 space-y-2">
                                         <li className="flex items-start">
-                                            <span className="text-primary mr-2">
+                                            <span className="text-white mr-2">
                                                 •
                                             </span>
                                             <span>
@@ -420,7 +418,7 @@ const TestimonialsPage = () => {
                                             </span>
                                         </li>
                                         <li className="flex items-start">
-                                            <span className="text-primary mr-2">
+                                            <span className="text-white mr-2">
                                                 •
                                             </span>
                                             <span>
@@ -429,7 +427,7 @@ const TestimonialsPage = () => {
                                             </span>
                                         </li>
                                         <li className="flex items-start">
-                                            <span className="text-primary mr-2">
+                                            <span className="text-white mr-2">
                                                 •
                                             </span>
                                             <span>
@@ -438,7 +436,7 @@ const TestimonialsPage = () => {
                                             </span>
                                         </li>
                                         <li className="flex items-start">
-                                            <span className="text-primary mr-2">
+                                            <span className="text-white mr-2">
                                                 •
                                             </span>
                                             <span>
@@ -448,7 +446,7 @@ const TestimonialsPage = () => {
                                         </li>
                                     </ul>
 
-                                    <blockquote className="border-l-4 border-primary pl-4 italic text-gray-400 mb-6">
+                                    <blockquote className="border-l-4 border-white pl-4 italic text-gray-400 mb-6">
                                         "O TutorTime transformou completamente a
                                         forma como gerenciamos nossas
                                         monitorias. A solução foi implementada

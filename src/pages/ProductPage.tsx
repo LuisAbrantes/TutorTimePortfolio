@@ -17,7 +17,7 @@ const ProductPage = () => {
                     <div className="max-w-3xl mx-auto text-center">
                         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
                             Conheça a{' '}
-                            <span className="text-primary">Plataforma</span>
+                            <span className="text-white">Plataforma</span>
                         </h1>
                         <p className="text-xl text-gray-300 mb-8">
                             Uma solução completa para organizar monitorias e
@@ -37,9 +37,7 @@ const ProductPage = () => {
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
                             Benefícios para{' '}
-                            <span className="text-primary">
-                                sua Instituição
-                            </span>
+                            <span className="text-white">sua Instituição</span>
                         </h2>
                         <p className="text-gray-400 max-w-2xl mx-auto">
                             Veja como o TutorTime pode transformar a experiência
@@ -52,7 +50,7 @@ const ProductPage = () => {
                         {/* For Students */}
                         <div className="bg-dark p-8 rounded-xl border border-gray-800 transition-all duration-300 hover:border-primary/50">
                             <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
-                                <span className="bg-primary/20 text-primary w-10 h-10 rounded-full flex items-center justify-center mr-3 font-normal">
+                                <span className="bg-primary/20 text-white w-10 h-10 rounded-full flex items-center justify-center mr-3 font-normal">
                                     1
                                 </span>
                                 Para Alunos
@@ -60,35 +58,35 @@ const ProductPage = () => {
 
                             <ul className="space-y-4">
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Visualização clara de todas as
                                         monitorias disponíveis
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Lembretes automáticos sobre horários e
                                         alterações
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Acesso via aplicativo móvel ou navegador
                                         web
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Possibilidade de avaliar e dar feedback
                                         sobre as monitorias
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Histórico de participação e progresso
                                         pessoal
@@ -100,7 +98,7 @@ const ProductPage = () => {
                         {/* For Teachers */}
                         <div className="bg-dark p-8 rounded-xl border border-gray-800 transition-all duration-300 hover:border-primary/50">
                             <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
-                                <span className="bg-primary/20 text-primary w-10 h-10 rounded-full flex items-center justify-center mr-3 font-normal">
+                                <span className="bg-primary/20 text-white w-10 h-10 rounded-full flex items-center justify-center mr-3 font-normal">
                                     2
                                 </span>
                                 Para Professores
@@ -108,35 +106,35 @@ const ProductPage = () => {
 
                             <ul className="space-y-4">
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Gestão simplificada de horários e
                                         disponibilidade
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Acompanhamento da frequência e
                                         participação dos alunos
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Comunicação direta com alunos sobre
                                         dúvidas e material
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Relatórios detalhados sobre desempenho e
                                         temas abordados
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Menos tempo gasto com tarefas
                                         administrativas
@@ -148,7 +146,7 @@ const ProductPage = () => {
                         {/* For Institutions */}
                         <div className="bg-dark p-8 rounded-xl border border-gray-800 transition-all duration-300 hover:border-primary/50">
                             <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
-                                <span className="bg-primary/20 text-primary w-10 h-10 rounded-full flex items-center justify-center mr-3 font-normal">
+                                <span className="bg-primary/20 text-white w-10 h-10 rounded-full flex items-center justify-center mr-3 font-normal">
                                     3
                                 </span>
                                 Para Instituições
@@ -156,35 +154,35 @@ const ProductPage = () => {
 
                             <ul className="space-y-4">
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Aumento significativo na participação em
                                         monitorias
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Redução de evasão e melhoria no
                                         desempenho acadêmico
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Otimização de recursos humanos e
                                         infraestrutura
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Análises e métricas para tomada de
                                         decisões estratégicas
                                     </span>
                                 </li>
                                 <li className="text-gray-300 flex items-start">
-                                    <span className="text-primary mr-2">•</span>
+                                    <span className="text-white mr-2">•</span>
                                     <span>
                                         Diferencial competitivo no mercado
                                         educacional

@@ -73,7 +73,7 @@ const TestimonialCard = ({ testimonial, isActive }: TestimonialCardProps) => {
       `}
         >
             <div className="flex justify-between items-start mb-6">
-                <Quote size={32} className="text-primary/40" />
+                <Quote size={32} className="text-white/40" />
                 <div className="flex">
                     {[...Array(5)].map((_, i) => (
                         <Star

@@ -64,7 +64,7 @@ const ContactSection = () => {
                         {formSubmitted ? (
                             <div className="text-center py-12">
                                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/20 mb-6">
-                                    <Send size={28} className="text-primary" />
+                                    <Send size={28} className="text-white" />
                                 </div>
                                 <h3 className="text-2xl font-bold text-white mb-4">
                                     Mensagem Enviada!
@@ -190,7 +190,7 @@ const ContactSection = () => {
                                     <div className="flex-shrink-0 p-3 bg-primary/20 rounded-lg mr-4">
                                         <MapPin
                                             size={24}
-                                            className="text-primary"
+                                            className="text-white"
                                         />
                                     </div>
                                     <div>
@@ -209,7 +209,7 @@ const ContactSection = () => {
                                     <div className="flex-shrink-0 p-3 bg-primary/20 rounded-lg mr-4">
                                         <Phone
                                             size={24}
-                                            className="text-primary"
+                                            className="text-white"
                                         />
                                     </div>
                                     <div>
@@ -228,7 +228,7 @@ const ContactSection = () => {
                                     <div className="flex-shrink-0 p-3 bg-primary/20 rounded-lg mr-4">
                                         <Mail
                                             size={24}
-                                            className="text-primary"
+                                            className="text-white"
                                         />
                                     </div>
                                     <div>

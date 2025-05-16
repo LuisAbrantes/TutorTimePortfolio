@@ -47,7 +47,7 @@ const AboutSection = () => {
                                     <div className="p-3 bg-indigo-600/20 inline-flex rounded-lg mb-4">
                                         <Target
                                             size={24}
-                                            className="text-indigo-400"
+                                            className="text-white"
                                         />
                                     </div>
                                     <h3 className="text-xl font-bold mb-3 text-white">
@@ -66,7 +66,7 @@ const AboutSection = () => {
                                     <div className="p-3 bg-indigo-600/20 inline-flex rounded-lg mb-4">
                                         <Users
                                             size={24}
-                                            className="text-indigo-400"
+                                            className="text-white"
                                         />
                                     </div>
                                     <h3 className="text-xl font-bold mb-3 text-white">
@@ -85,7 +85,7 @@ const AboutSection = () => {
                                     <div className="p-3 bg-indigo-600/20 inline-flex rounded-lg mb-4">
                                         <RefreshCw
                                             size={24}
-                                            className="text-indigo-400"
+                                            className="text-white"
                                         />
                                     </div>
                                     <h3 className="text-xl font-bold mb-3 text-white">
