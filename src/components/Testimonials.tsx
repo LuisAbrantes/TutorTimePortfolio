@@ -1,5 +1,4 @@
 import { Star, Quote } from 'lucide-react';
-import { useState } from 'react';
 import { createPlaceholder } from '../utils/placeholdersUtils';
 
 interface TestimonialType {
@@ -14,7 +13,6 @@ interface TestimonialType {
 
 interface TestimonialCardProps {
     testimonial: TestimonialType;
-    isActive: boolean;
 }
 
 const testimonials = [
@@ -60,17 +58,10 @@ const testimonials = [
     }
 ];
 
-const TestimonialCard = ({ testimonial, isActive }: TestimonialCardProps) => {
+const TestimonialCard = ({ testimonial }: TestimonialCardProps) => {
     return (
         <div
-            className={`
-        bg-darkAlt rounded-xl p-8 transition-all duration-500 border border-gray-800
-        ${
-            isActive
-                ? 'scale-105 border-primary/50 shadow-xl shadow-primary/10'
-                : 'opacity-60 scale-95 hover:opacity-80'
-        }
-      `}
+            className="bg-darkAlt rounded-xl p-8 transition-all duration-300 border border-gray-800 opacity-90 hover:scale-105 hover:opacity-100 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10"
         >
             <div className="flex justify-between items-start mb-6">
                 <Quote size={32} className="text-white/40" />
@@ -110,7 +101,7 @@ const TestimonialCard = ({ testimonial, isActive }: TestimonialCardProps) => {
                         {testimonial.author}
                     </h4>
                     <p className="text-sm text-gray-400">{testimonial.role}</p>
-                    <p className="text-xs text-primary">
+                    <p className="text-xs text-white">
                         {testimonial.institution}
                     </p>
                 </div>
@@ -120,8 +111,6 @@ const TestimonialCard = ({ testimonial, isActive }: TestimonialCardProps) => {
 };
 
 const Testimonials = () => {
-    const [activeIndex, setActiveIndex] = useState(0);
-
     return (
         <section className="py-20 bg-gradient-to-b from-[#0c0c1d] to-[#0a0a1a] relative overflow-hidden">
             {/* Background effect */}
@@ -141,36 +130,19 @@ const Testimonials = () => {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                    {testimonials.slice(0, 2).map((testimonial, index) => (
+                    {testimonials.slice(0, 2).map((testimonial) => (
                         <TestimonialCard
                             key={testimonial.id}
                             testimonial={testimonial}
-                            isActive={activeIndex === index}
                         />
                     ))}
                 </div>
 
                 <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                    {testimonials.slice(2, 4).map((testimonial, index) => (
+                    {testimonials.slice(2, 4).map((testimonial) => (
                         <TestimonialCard
                             key={testimonial.id}
                             testimonial={testimonial}
-                            isActive={activeIndex === index + 2}
-                        />
-                    ))}
-                </div>
-
-                <div className="mt-12 flex justify-center gap-2">
-                    {testimonials.map((_, index) => (
-                        <button
-                            key={index}
-                            onClick={() => setActiveIndex(index)}
-                            className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                                activeIndex === index
-                                    ? 'bg-primary w-10'
-                                    : 'bg-gray-600 hover:bg-gray-500'
-                            }`}
-                            aria-label={`Ver depoimento ${index + 1}`}
                         />
                     ))}
                 </div>

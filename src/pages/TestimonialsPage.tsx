@@ -188,7 +188,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => {
                         {testimonial.author}
                     </h4>
                     <p className="text-sm text-gray-400">{testimonial.role}</p>
-                    <p className="text-xs text-primary">
+                    <p className="text-xs text-white">
                         {testimonial.institution}
                     </p>
                 </div>
