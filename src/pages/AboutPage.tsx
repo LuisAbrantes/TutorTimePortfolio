@@ -43,7 +43,6 @@ const AboutPage = () => {
                 <div className="container mx-auto px-6 relative z-10">
                     <div className="max-w-3xl mx-auto text-center">
                         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                            Nossa{' '}
                             <span className="text-indigo-400">História</span>
                         </h1>
                         <p className="text-xl text-gray-300 mb-8">

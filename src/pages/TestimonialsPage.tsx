@@ -284,8 +284,8 @@ const TestimonialsPage = () => {
             <section className="py-20 bg-dark">
                 <div className="container mx-auto px-6">
                     <h2 className="text-3xl font-bold text-white mb-12 text-center">
-                        O que nossos{' '}
-                        <span className="text-white">clientes</span> dizem
+                        O que os <span className="text-white">clientes</span>{' '}
+                        dizem
                     </h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

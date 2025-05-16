@@ -60,9 +60,7 @@ const testimonials = [
 
 const TestimonialCard = ({ testimonial }: TestimonialCardProps) => {
     return (
-        <div
-            className="bg-darkAlt rounded-xl p-8 transition-all duration-300 border border-gray-800 opacity-90 hover:scale-105 hover:opacity-100 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10"
-        >
+        <div className="bg-darkAlt rounded-xl p-8 transition-all duration-300 border border-gray-800 opacity-90 hover:scale-105 hover:opacity-100 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10">
             <div className="flex justify-between items-start mb-6">
                 <Quote size={32} className="text-white/40" />
                 <div className="flex">
@@ -119,8 +117,8 @@ const Testimonials = () => {
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                        O que nossos{' '}
-                        <span className="text-primary">clientes</span> dizem
+                        O que os <span className="text-primary">clientes</span>{' '}
+                        dizem
                     </h2>
                     <p className="text-gray-400 max-w-2xl mx-auto">
                         Veja como o TutorTime tem ajudado instituições de ensino
@@ -130,7 +128,7 @@ const Testimonials = () => {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                    {testimonials.slice(0, 2).map((testimonial) => (
+                    {testimonials.slice(0, 2).map(testimonial => (
                         <TestimonialCard
                             key={testimonial.id}
                             testimonial={testimonial}
@@ -139,7 +137,7 @@ const Testimonials = () => {
                 </div>
 
                 <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                    {testimonials.slice(2, 4).map((testimonial) => (
+                    {testimonials.slice(2, 4).map(testimonial => (
                         <TestimonialCard
                             key={testimonial.id}
                             testimonial={testimonial}
