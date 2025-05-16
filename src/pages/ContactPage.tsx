@@ -24,19 +24,6 @@ const ContactPage = () => {
             </div>
 
             <ContactSection />
-
-            {/* Map Section (Placeholder) */}
-            <section className="py-20 bg-darkAlt">
-                <div className="container mx-auto px-6">
-                    <div className="max-w-5xl mx-auto rounded-xl overflow-hidden border border-gray-800">
-                        <div className="bg-dark h-[400px] w-full flex items-center justify-center">
-                            <p className="text-gray-400">
-                                Mapa interativo seria inserido aqui
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </div>
     );
 };
