@@ -20,9 +20,9 @@ const testimonials = [
         id: 1,
         content:
             'O TutorTime transformou completamente nossa gestão de aulas de reforço. A interface intuitiva facilita o agendamento e os alunos adoram a clareza com que podem visualizar todas as opções. Notamos um aumento de 60% na frequência desde que implementamos o sistema.',
-        author: 'Profa. Ana Silva',
+        author: 'PESSOA 1',
         role: 'Coordenadora Pedagógica',
-        institution: 'Escola Estadual Dom Pedro II',
+        institution: 'ESCOLA 1',
         avatar: 'https://i.pravatar.cc/150?img=32',
         rating: 5
     },
@@ -30,9 +30,9 @@ const testimonials = [
         id: 2,
         content:
             'Como tutor, o TutorTime simplificou minha rotina. Consigo gerenciar horários, acompanhar a frequência dos alunos e me comunicar efetivamente com a coordenação. É uma ferramenta completa que otimizou nosso tempo e aumentou o engajamento dos estudantes.',
-        author: 'Prof. Carlos Oliveira',
+        author: 'PESSOA 2',
         role: 'Professor de Matemática',
-        institution: 'Colégio Santa Mônica',
+        institution: 'ESCOLA 2',
         avatar: 'https://i.pravatar.cc/150?img=11',
         rating: 5
     },
@@ -40,9 +40,9 @@ const testimonials = [
         id: 3,
         content:
             'Implementamos o TutorTime há 6 meses e os resultados são impressionantes. O número de faltas diminuiu drasticamente e os alunos relatam que estão conseguindo acompanhar melhor as disciplinas graças à facilidade de acesso às monitorias.',
-        author: 'Mariana Campos',
+        author: 'PESSOA 3',
         role: 'Diretora Acadêmica',
-        institution: 'Instituto Federal de Educação',
+        institution: 'INSTITUTO 1',
         avatar: 'https://i.pravatar.cc/150?img=29',
         rating: 4
     },
@@ -50,9 +50,9 @@ const testimonials = [
         id: 4,
         content:
             'Como aluna, o TutorTime mudou minha experiência com monitorias. Antes era confuso encontrar os horários disponíveis, agora consigo ver tudo no aplicativo e recebo lembretes sobre as aulas. Isso me ajudou muito a melhorar minhas notas!',
-        author: 'Júlia Mendes',
+        author: 'PESSOA 4',
         role: 'Estudante',
-        institution: 'Universidade Federal',
+        institution: 'INSTITUTO 2',
         avatar: 'https://i.pravatar.cc/150?img=5',
         rating: 5
     }

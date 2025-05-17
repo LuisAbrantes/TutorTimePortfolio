@@ -10,12 +10,12 @@ const AboutSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div>
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                            Sobre a{' '}
+                            Sobre o{' '}
                             <span className="text-indigo-400">TutorTime</span>
                         </h2>
 
                         <p className="text-gray-300 mb-6">
-                            A TutorTime nasceu da percepção de um problema comum
+                            O TutorTime nasceu da percepção de um problema comum
                             em instituições de ensino: a dificuldade de
                             organizar e comunicar eficientemente os horários de
                             aulas de reforço e monitorias, resultando em baixa

@@ -53,7 +53,7 @@ const ProductDemo = () => {
             id: 1,
             thumb: createPlaceholder(400, 225, 'Dashboard'),
             full: createPlaceholder(1200, 800, 'Dashboard TutorTime'),
-            alt: 'Dashboard da plataforma TutorTime',
+            alt: 'Dashboard do sistema TutorTime',
             title: 'Dashboard principal'
         },
         {

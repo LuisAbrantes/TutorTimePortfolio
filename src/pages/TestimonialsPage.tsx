@@ -7,22 +7,22 @@ const videoTestimonials = [
     {
         id: 1,
         thumbnail: createPlaceholder(600, 400, 'Vídeo Depoimento'),
-        title: 'Como a Escola São Francisco melhorou em 70% a frequência em monitorias',
-        institution: 'Escola São Francisco',
+        title: 'Como a ESCOLA 3 melhorou em 70% a frequência em monitorias',
+        institution: 'ESCOLA 3',
         videoId: 'example1'
     },
     {
         id: 2,
         thumbnail: createPlaceholder(600, 400, 'Vídeo Depoimento'),
-        title: 'Universidade Federal reduz evasão com TutorTime',
-        institution: 'Universidade Federal',
+        title: 'INSTITUTO 3 reduz evasão com TutorTime',
+        institution: 'INSTITUTO 3',
         videoId: 'example2'
     },
     {
         id: 3,
         thumbnail: createPlaceholder(600, 400, 'Vídeo Depoimento'),
-        title: 'Instituto Técnico otimiza recursos e melhora comunicação',
-        institution: 'Instituto Técnico Profissionalizante',
+        title: 'ESCOLA 4 otimiza recursos e melhora comunicação',
+        institution: 'ESCOLA 4',
         videoId: 'example3'
     }
 ];
@@ -32,9 +32,9 @@ const testimonials = [
         id: 1,
         content:
             'O TutorTime transformou completamente nossa gestão de aulas de reforço. A interface intuitiva facilita o agendamento e os alunos adoram a clareza com que podem visualizar todas as opções. Notamos um aumento de 60% na frequência desde que implementamos o sistema.',
-        author: 'Profa. Ana Silva',
+        author: 'PESSOA 1',
         role: 'Coordenadora Pedagógica',
-        institution: 'Escola Estadual Dom Pedro II',
+        institution: 'ESCOLA 1',
         avatar: 'https://i.pravatar.cc/150?img=32',
         rating: 5
     },
@@ -42,9 +42,9 @@ const testimonials = [
         id: 2,
         content:
             'Como tutor, o TutorTime simplificou minha rotina. Consigo gerenciar horários, acompanhar a frequência dos alunos e me comunicar efetivamente com a coordenação. É uma ferramenta completa que otimizou nosso tempo e aumentou o engajamento dos estudantes.',
-        author: 'Prof. Carlos Oliveira',
+        author: 'PESSOA 2',
         role: 'Professor de Matemática',
-        institution: 'Colégio Santa Mônica',
+        institution: 'ESCOLA 2',
         avatar: 'https://i.pravatar.cc/150?img=11',
         rating: 5
     },
@@ -52,9 +52,9 @@ const testimonials = [
         id: 3,
         content:
             'Implementamos o TutorTime há 6 meses e os resultados são impressionantes. O número de faltas diminuiu drasticamente e os alunos relatam que estão conseguindo acompanhar melhor as disciplinas graças à facilidade de acesso às monitorias.',
-        author: 'Mariana Campos',
+        author: 'PESSOA 3',
         role: 'Diretora Acadêmica',
-        institution: 'Instituto Federal de Educação',
+        institution: 'INSTITUTO 1',
         avatar: 'https://i.pravatar.cc/150?img=29',
         rating: 4
     },
@@ -62,19 +62,19 @@ const testimonials = [
         id: 4,
         content:
             'Como aluna, o TutorTime mudou minha experiência com monitorias. Antes era confuso encontrar os horários disponíveis, agora consigo ver tudo no aplicativo e recebo lembretes sobre as aulas. Isso me ajudou muito a melhorar minhas notas!',
-        author: 'Júlia Mendes',
+        author: 'PESSOA 4',
         role: 'Estudante',
-        institution: 'Universidade Federal',
+        institution: 'INSTITUTO 2',
         avatar: 'https://i.pravatar.cc/150?img=5',
         rating: 5
     },
     {
         id: 5,
         content:
-            'Nossa rede de escolas implementou o TutorTime há um ano e os resultados superaram nossas expectativas. Além do aumento na participação dos alunos, a plataforma nos fornece dados valiosos para melhorar continuamente nossa oferta de monitorias.',
-        author: 'Roberto Almeida',
+            'Nosso grupo de escolas implementou o TutorTime há um ano e os resultados superaram nossas expectativas. Além do aumento na participação dos alunos, a plataforma nos fornece dados valiosos para melhorar continuamente nossa oferta de monitorias.',
+        author: 'PESSOA 5',
         role: 'Diretor de Tecnologia Educacional',
-        institution: 'Rede Aprender Mais',
+        institution: 'INSTITUTO 5',
         avatar: 'https://i.pravatar.cc/150?img=7',
         rating: 5
     },
@@ -82,9 +82,9 @@ const testimonials = [
         id: 6,
         content:
             'Como coordenadora, eu perdia muito tempo organizando horários e comunicando alterações de monitorias. Com o TutorTime, todo esse processo foi automatizado, permitindo que eu foque em melhorar a qualidade das sessões de reforço.',
-        author: 'Helena Souza',
+        author: 'PESSOA 6',
         role: 'Coordenadora de Ensino Médio',
-        institution: 'Colégio Integrado',
+        institution: 'ESCOLA 6',
         avatar: 'https://i.pravatar.cc/150?img=23',
         rating: 5
     },
@@ -92,9 +92,9 @@ const testimonials = [
         id: 7,
         content:
             'Tínhamos um problema crônico de baixa participação em monitorias. Após implementar o TutorTime, com suas notificações e interface amigável, vimos um aumento de 55% na presença dos alunos logo no primeiro semestre.',
-        author: 'Daniel Costa',
+        author: 'PESSOA 7',
         role: 'Diretor',
-        institution: 'Escola Municipal Paulo Freire',
+        institution: 'ESCOLA 7',
         avatar: 'https://i.pravatar.cc/150?img=15',
         rating: 4
     },
@@ -102,9 +102,9 @@ const testimonials = [
         id: 8,
         content:
             'O maior benefício do TutorTime para nós foi a análise de dados. Agora conseguimos identificar padrões, entender melhor as necessidades dos alunos e otimizar a oferta de monitorias com base em evidências concretas.',
-        author: 'Fernanda Lima',
+        author: 'PESSOA 8',
         role: 'Analista Educacional',
-        institution: 'Fundação Educacional',
+        institution: 'INSTITUTO 8',
         avatar: 'https://i.pravatar.cc/150?img=1',
         rating: 5
     }
@@ -354,7 +354,7 @@ const TestimonialsPage = () => {
 
                                 <div>
                                     <h3 className="text-2xl font-bold text-white mb-3">
-                                        Instituto Federal de São Paulo
+                                        INSTITUTO 10
                                     </h3>
                                     <p className="text-white font-medium mb-4">
                                         Aumento de 65% na frequência de
@@ -362,13 +362,12 @@ const TestimonialsPage = () => {
                                     </p>
 
                                     <p className="text-gray-300 mb-4">
-                                        O Instituto Federal de São Paulo (IFSP)
-                                        enfrentava desafios significativos na
-                                        organização e comunicação das monitorias
-                                        para seus mais de 5.000 alunos. A falta
-                                        de um sistema centralizado resultava em
-                                        baixa participação e desperdício de
-                                        recursos.
+                                        O INSTITUTO 10 enfrentava desafios
+                                        significativos na organização e
+                                        comunicação das monitorias para seus
+                                        mais de 5.000 alunos. A falta de um
+                                        sistema centralizado resultava em baixa
+                                        participação e desperdício de recursos.
                                     </p>
 
                                     <h4 className="text-white font-bold mt-6 mb-2">
@@ -453,8 +452,8 @@ const TestimonialsPage = () => {
                                         rapidamente e os resultados foram
                                         imediatos."
                                         <footer className="text-white not-italic mt-2">
-                                            — Paulo Mendes, Diretor de Ensino,
-                                            IFSP
+                                            — PESSOA 10, Diretor de Ensino,
+                                            INSTITUTO 10
                                         </footer>
                                     </blockquote>
                                 </div>
